@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MVC Calculator by Jeremy Paul</title>
+	
+		<link rel="stylesheet" type="text/css" href="Styles/calculator.css" />
+
+		<script src="PubSub/PubSub.js"></script>
+		
+		<script src="MVC/Model.js"></script>
+		<script src="MVC/View.js"></script>
+		<script src="MVC/Controller.js"></script>
+	</head>
+	<body>
+		<article id="MVCCalculator">
+			<div id="CalcWrap">
+				<!-- Screen with default value of one -->
+				<div id="top">
+					<div id="screen">
+						<div id="expression"></div>
+						<div id="answer">0</div>
+					</div>
+				</div>
+				
+				<div id="keys">
+					<!-- operators, numbers, equals and clear keys -->
+					<button class="btn number">7</button>
+					<button class="btn number">8</button>
+					<button class="btn number">9</button>
+					                
+					<button class="btn operator">+</button>
+					                
+					<button class="btn number">4</button>
+					<button class="btn number">5</button>
+					<button class="btn number">6</button>
+					                
+					<button class="btn operator">-</button>
+					                
+					<button class="btn number">1</button>
+					<button class="btn number">2</button>
+					<button class="btn number">3</button>
+					                
+					<button class="btn operator">x</button>
+					
+					<button class="btn number">0</button>
+					<button class="btn number">.</button>					                
+					<button class="btn" id="eval">=</button>
+					<button class="btn" id="clear">C</button>
+				</div>
+			</div>
+		</article>
+		
+		<footer>
+			<p>Created by Jeremy Paul (Nottingham, UK), 15/02/2014.</p>
+			<p><a href="mailto:jeremyjcpaul@gmail.com">jeremyjcpaul@gmail.com</a> | <a href="http://jeremyjcpaul.com" target="_blank">jeremyjcpaul.com</a></p>
+		</footer>
+	</body>
+</html>
